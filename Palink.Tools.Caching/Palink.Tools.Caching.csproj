@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>1.3.1</Version>
+		<Authors>Palink</Authors>
+		<Company>Palink</Company>
+		<Description>缓存工具</Description>
+		<Copyright>copyright 2022</Copyright>
+		<PackageProjectUrl>https://github.com/doomclouds/Palink.Tools.git</PackageProjectUrl>
+		<PackageIcon>profile.jpg</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/doomclouds/Palink.Tools.git</RepositoryUrl>
+		<PackageTags>Palink;Tool;EasyLibrary</PackageTags>
+		<PackageReleaseNotes>稳定版发布</PackageReleaseNotes>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<Product>Palink.Tools</Product>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\Palink.Tools\Palink.Tools.Core\profile.jpg">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\..\Palink.Tools\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Palink.Tools" Version="1.3.1" />
+	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+	</ItemGroup>
+
+</Project>
