@@ -4,21 +4,23 @@
 		<TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion>
-		<RootNamespace>Palink.Tools.SerialStream</RootNamespace>
+		<RootNamespace>Palink.Tools</RootNamespace>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Version>1.3.1</Version>
 		<Authors>Palink</Authors>
 		<Company>Palink</Company>
 		<Description>串口适配器</Description>
 		<Copyright>copyright 2022</Copyright>
-		<PackageProjectUrl>https://github.com/doomclouds/Palink.Tools.git</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/doomclouds/Palink.Tools.Extensions.git</PackageProjectUrl>
 		<PackageIcon>profile.jpg</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RepositoryUrl>https://github.com/doomclouds/Palink.Tools.git</RepositoryUrl>
+		<RepositoryUrl>https://github.com/doomclouds/Palink.Tools.Extensions.git</RepositoryUrl>
 		<PackageTags>Palink;Tool;EasyLibrary</PackageTags>
 		<PackageReleaseNotes>稳定版发布</PackageReleaseNotes>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Product>Palink.Tools</Product>
+		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
 
 	<ItemGroup>

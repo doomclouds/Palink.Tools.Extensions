@@ -3,7 +3,7 @@ using System.IO.Ports;
 using Palink.Tools.IO;
 using Palink.Tools.Utility;
 
-namespace Palink.Tools.Serial;
+namespace Palink.Tools;
 
 /// <summary>
 ///     Concrete Implementor - http://en.wikipedia.org/wiki/Bridge_Pattern

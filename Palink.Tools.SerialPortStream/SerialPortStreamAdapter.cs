@@ -4,7 +4,7 @@ using Palink.Tools.IO;
 using Palink.Tools.Utility;
 using RJCP.IO.Ports;
 
-namespace Palink.Tools.SerialStream;
+namespace Palink.Tools;
 
 /// <summary>
 /// SerialPortAdapter
