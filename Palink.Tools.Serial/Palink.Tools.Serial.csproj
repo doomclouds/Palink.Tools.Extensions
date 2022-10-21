@@ -5,7 +5,7 @@
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>1.3.1</Version>
+		<Version>1.4.0</Version>
 		<Authors>Palink</Authors>
 		<Company>Palink</Company>
 		<Description>串口适配器</Description>
@@ -15,7 +15,7 @@
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/doomclouds/Palink.Tools.Extensions.git</RepositoryUrl>
 		<PackageTags>Palink;Tool;EasyLibrary</PackageTags>
-		<PackageReleaseNotes>稳定版发布</PackageReleaseNotes>
+		<PackageReleaseNotes>升级对Palink.Tools.Core依赖版本为1.4.0</PackageReleaseNotes>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RootNamespace>Palink.Tools</RootNamespace>

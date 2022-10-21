@@ -6,7 +6,7 @@
 		<LangVersion>latest</LangVersion>
 		<RootNamespace>Palink.Tools</RootNamespace>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>1.3.2</Version>
+		<Version>1.4.0</Version>
 		<Authors>Palink</Authors>
 		<Company>Palink</Company>
 		<Description>Modbus</Description>
@@ -16,7 +16,7 @@
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/doomclouds/Palink.Tools.Extensions.git</RepositoryUrl>
 		<PackageTags>Palink;Tool;EasyLibrary</PackageTags>
-		<PackageReleaseNotes>稳定版发布</PackageReleaseNotes>
+		<PackageReleaseNotes>升级对Palink.Tools.Core依赖版本为1.4.0</PackageReleaseNotes>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<Product>Palink.Tools</Product>

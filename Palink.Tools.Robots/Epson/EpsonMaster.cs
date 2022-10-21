@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection;
+using System.Text;
 using Palink.Tools.Freebus.Device;
 using Palink.Tools.Freebus.Interface;
 using Palink.Tools.Freebus.Message;
@@ -340,6 +341,58 @@ public class EpsonMaster : FreebusMaster
             Transport.Logger.Error(
                 $"{MethodBase.GetCurrentMethod()?.Name}命令异常,{e.Message}");
             return false;
+        }
+    }
+
+    /// <summary>
+    /// 执行SPEL程序
+    /// </summary>
+    /// <param name="spel">执行SPEL+语言命令，命令需要用引号</param>
+    /// <returns></returns>
+    public void ExecuteNoReturn(string spel)
+    {
+        try
+        {
+            var cmd = CreateCmd(nameof(Execute), spel);
+            var context = new FreebusContext();
+            context.SetPduString(cmd);
+            context.NewLine = NewLine;
+            BroadcastMessage(context, true);
+        }
+        catch (Exception e)
+        {
+            Transport.Logger.Error(
+                $"{MethodBase.GetCurrentMethod()?.Name}命令异常,{e.Message}");
+        }
+    }
+
+    /// <summary>
+    /// 执行SPEL程序
+    /// </summary>
+    /// <param name="spel">执行SPEL+语言命令，命令需要用引号</param>
+    /// <param name="waitTime">等待时间，Execute命令必须等待机器人任务完全结束才有返回</param>
+    /// <returns></returns>
+    public string ExecuteReturnString(string spel, int waitTime = DefaultDelay)
+    {
+        try
+        {
+            var temp = Transport.ReadTimeout;
+            Transport.ReadTimeout = waitTime;
+            var cmd = CreateCmd(nameof(Execute), spel);
+            var context = new FreebusContext();
+            context.SetPduString(cmd);
+            context.NewLine = NewLine;
+            var ret = ExecuteCustomMessage(context);
+            Transport.ReadTimeout = temp;
+            if (!ret.Succeed) return "";
+            var res = Encoding.UTF8.GetString(context.Dru);
+            return res;
+        }
+        catch (Exception e)
+        {
+            Transport.Logger.Error(
+                $"{MethodBase.GetCurrentMethod()?.Name}命令异常,{e.Message}");
+            return "";
         }
     }
 }

@@ -5,19 +5,17 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palink.Tools.Robots", "Palink.Tools.Robots\Palink.Tools.Robots.csproj", "{161EDA9A-34A5-4B31-B6FC-22C0ADD9FE71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palink.Tools.Serial", "Palink.Tools.Serial\Palink.Tools.Serial.csproj", "{854358D2-B5A7-464F-88BA-281445505D5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palink.Tools.Serial", "Palink.Tools.Serial\Palink.Tools.Serial.csproj", "{854358D2-B5A7-464F-88BA-281445505D5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palink.Tools.SerialPortStream", "Palink.Tools.SerialPortStream\Palink.Tools.SerialPortStream.csproj", "{65C7B3E6-EC88-41C4-8F78-0480ED8E368F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palink.Tools.SerialPortStream", "Palink.Tools.SerialPortStream\Palink.Tools.SerialPortStream.csproj", "{65C7B3E6-EC88-41C4-8F78-0480ED8E368F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palink.Tools.Configuration", "Palink.Tools.Configuration\Palink.Tools.Configuration.csproj", "{5111F447-638A-4DCA-92E8-E453C74710A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palink.Tools.Configuration", "Palink.Tools.Configuration\Palink.Tools.Configuration.csproj", "{5111F447-638A-4DCA-92E8-E453C74710A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palink.Tools.Caching", "Palink.Tools.Caching\Palink.Tools.Caching.csproj", "{AF732581-141A-4CF3-8F7F-25DF0FEA5DD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palink.Tools.Caching", "Palink.Tools.Caching\Palink.Tools.Caching.csproj", "{AF732581-141A-4CF3-8F7F-25DF0FEA5DD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palink.Tools.Modbus", "Palink.Tools.Modbus\Palink.Tools.Modbus.csproj", "{BF6BDDEE-8373-480B-ACA8-BE77DB31F198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palink.Tools.Modbus", "Palink.Tools.Modbus\Palink.Tools.Modbus.csproj", "{BF6BDDEE-8373-480B-ACA8-BE77DB31F198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palink.Tools.PanShi", "Palink.Tools.PanShi\Palink.Tools.PanShi.csproj", "{1947BCB4-D430-47A0-BA9D-73CA0BAE8A30}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palink.Tools.TaskScheduler", "Palink.Tools.TaskScheduler\Palink.Tools.TaskScheduler.csproj", "{51B116F9-78A6-43F5-8A75-555AB8C37D18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palink.Tools.PanShi", "Palink.Tools.PanShi\Palink.Tools.PanShi.csproj", "{1947BCB4-D430-47A0-BA9D-73CA0BAE8A30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +51,6 @@ Global
 		{1947BCB4-D430-47A0-BA9D-73CA0BAE8A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1947BCB4-D430-47A0-BA9D-73CA0BAE8A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1947BCB4-D430-47A0-BA9D-73CA0BAE8A30}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51B116F9-78A6-43F5-8A75-555AB8C37D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51B116F9-78A6-43F5-8A75-555AB8C37D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51B116F9-78A6-43F5-8A75-555AB8C37D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51B116F9-78A6-43F5-8A75-555AB8C37D18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

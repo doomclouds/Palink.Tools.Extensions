@@ -141,7 +141,9 @@ public class LQMaster : FreebusMaster
             ExecuteCustomMessage(context);
             var temp = Transport.StreamResource.ReadTimeout;
             Transport.StreamResource.ReadTimeout = waitTime;
-            var res = CoreTool.ReadLine(Transport.StreamResource, "]").Split('#');
+            var ret = CoreTool.ReadLine(Transport.StreamResource, "]");
+            Transport.Logger.Trace($"RX: {ret}");
+            var res = ret.Split('#');
             Transport.StreamResource.ReadTimeout = temp;
             return res[1].StartsWith("1");
         }
@@ -200,7 +202,7 @@ public class LQMaster : FreebusMaster
             return false;
         }
     }
-    
+
     /// <summary>
     /// 读取速度
     /// </summary>
@@ -419,7 +421,9 @@ public class LQMaster : FreebusMaster
             ExecuteCustomMessage(context);
             var temp = Transport.StreamResource.ReadTimeout;
             Transport.StreamResource.ReadTimeout = waitTime;
-            var res = CoreTool.ReadLine(Transport.StreamResource, "]").Split('#');
+            var ret = CoreTool.ReadLine(Transport.StreamResource, "]");
+            Transport.Logger.Trace($"RX: {ret}");
+            var res = ret.Split('#');
             Transport.StreamResource.ReadTimeout = temp;
             return res[1].StartsWith("1");
         }
@@ -505,7 +509,7 @@ public class LQMaster : FreebusMaster
             return false;
         }
     }
-    
+
     /// <summary>
     /// 终止线程
     /// </summary>
