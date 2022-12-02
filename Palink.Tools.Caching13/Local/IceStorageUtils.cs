@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Palink.Tools.Caching11.Local;
+namespace Palink.Tools.Caching13.Local;
 
 /// <summary>
 /// IceStorage Utils

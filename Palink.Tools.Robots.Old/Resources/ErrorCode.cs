@@ -1,4 +1,4 @@
-﻿namespace Palink.Tools.Robots.Resources;
+﻿namespace Palink.Tools.Robots.Old.Resources;
 
 public class ErrorCode
 {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Palink.Tools.Caching11.Local;
+namespace Palink.Tools.Caching13.Local;
 
 /// <summary>
 /// Interface for a IceStorage of cache

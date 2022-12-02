@@ -1,7 +1,7 @@
 ﻿using System;
 using SQLite;
 
-namespace Palink.Tools.Caching11.Local;
+namespace Palink.Tools.Caching13.Local;
 
 /// <summary>
 /// Data object for IceStorage

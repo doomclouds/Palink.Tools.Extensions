@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Palink.Tools.Robots.LQ;
+namespace Palink.Tools.Robots.Old.LQ;
 
 public class LQErrorInfos
 {

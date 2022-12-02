@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Palink.Tools.Caching11.Local;
+namespace Palink.Tools.Caching13.Local;
 
 /// <summary>
 /// Current state of the item in the cache.

@@ -6,9 +6,9 @@ using Palink.Tools.Freebus.Interface;
 using Palink.Tools.Freebus.IO;
 using Palink.Tools.IO;
 using Palink.Tools.Logging;
-using Palink.Tools.Robots.Resources;
+using Palink.Tools.Robots.Old.Resources;
 
-namespace Palink.Tools.Robots.LQ;
+namespace Palink.Tools.Robots.Old.LQ;
 
 public class LQTransport : FreebusTransport
 {

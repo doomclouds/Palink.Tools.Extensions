@@ -7,7 +7,7 @@ using Palink.Tools.Freebus.Message;
 using Palink.Tools.Logging;
 using Palink.Tools.Utility;
 
-namespace Palink.Tools.Robots.LQ;
+namespace Palink.Tools.Robots.Old.LQ;
 
 public class LQMaster : FreebusMaster
 {
