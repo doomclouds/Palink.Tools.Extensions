@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>1.5.1.1</Version>
+		<Version>1.5.3.1</Version>
 		<Authors>Palink</Authors>
 		<Company>Palink</Company>
 		<Description>机器人相关控制类库</Description>
@@ -14,7 +14,7 @@
 		<PackageIcon>profile.jpg</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/doomclouds/Palink.Tools.Extensions.git</RepositoryUrl>
-		<PackageReleaseNotes>修改类库仅支持net6.0</PackageReleaseNotes>
+		<PackageReleaseNotes>支持netstandard2.0;net6.0</PackageReleaseNotes>
 		<PackageTags>Palink;Tool;EasyLibrary</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
@@ -34,7 +34,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Palink.Tools" Version="1.5.1" />
+	  <PackageReference Include="Palink.Tools" Version="1.5.3" />
 	</ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Palink.Tools.Robots.MultiaxialPlatform;
+namespace Palink.Tools.Robots.Old.MultiaxialPlatform;
 
 public class NkAllController
 {

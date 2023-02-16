@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
 		<RootNamespace>Palink.Tools.Configuration</RootNamespace>
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>1.5.1.1</Version>
+		<Version>1.5.3.1</Version>
 		<Authors>Palink</Authors>
 		<Company>Palink</Company>
 		<Description>配置文件工具</Description>
@@ -17,7 +17,7 @@
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>Palink;Tool;EasyLibrary</PackageTags>
 		<RepositoryUrl>https://github.com/doomclouds/Palink.Tools.Extensions.git</RepositoryUrl>
-		<PackageReleaseNotes>修改类库仅支持net6.0</PackageReleaseNotes>
+		<PackageReleaseNotes>支持netstandard2.0;net6.0</PackageReleaseNotes>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<Product>Palink.Tools</Product>
@@ -36,7 +36,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
-		<PackageReference Include="Palink.Tools" Version="1.5.1" />
+		<PackageReference Include="Palink.Tools" Version="1.5.3" />
 		<PackageReference Include="YamlDotNet" Version="11.2.1" />
 	</ItemGroup>
 

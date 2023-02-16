@@ -3,7 +3,7 @@ using Palink.Tools.Freebus.IO;
 using Palink.Tools.IO;
 using Palink.Tools.Logging;
 
-namespace Palink.Tools.Robots.UPS;
+namespace Palink.Tools.Robots.Old.UPS;
 
 public class UPSTransport : FreebusTransport
 {

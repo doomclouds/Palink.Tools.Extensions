@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion>
 		<RootNamespace>Palink.Tools</RootNamespace>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>1.5.1.1</Version>
+		<Version>1.5.3.1</Version>
 		<Authors>Palink</Authors>
 		<Company>Palink</Company>
 		<Description>串口适配器</Description>
@@ -16,7 +16,7 @@
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/doomclouds/Palink.Tools.Extensions.git</RepositoryUrl>
 		<PackageTags>Palink;Tool;EasyLibrary</PackageTags>
-		<PackageReleaseNotes>修改类库仅支持net6.0</PackageReleaseNotes>
+		<PackageReleaseNotes>支持netstandard2.0;net6.0</PackageReleaseNotes>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<Product>Palink.Tools</Product>
@@ -35,7 +35,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Palink.Tools" Version="1.5.1" />
+		<PackageReference Include="Palink.Tools" Version="1.5.3" />
 		<PackageReference Include="SerialPortStream" Version="2.4.0" />
 	</ItemGroup>
 

@@ -6,7 +6,7 @@ using Palink.Tools.Freebus.IO;
 using Palink.Tools.IO;
 using Palink.Tools.Logging;
 
-namespace Palink.Tools.Robots.YzAim;
+namespace Palink.Tools.Robots.Old.YzAim;
 
 public class YzAimTransport : FreebusTransport
 {

@@ -9,7 +9,7 @@ using Palink.Tools.Freebus.Message;
 using Palink.Tools.Logging;
 using Palink.Tools.Utility;
 
-namespace Palink.Tools.Robots.YzAim;
+namespace Palink.Tools.Robots.Old.YzAim;
 
 public enum YzAimCmd
 {

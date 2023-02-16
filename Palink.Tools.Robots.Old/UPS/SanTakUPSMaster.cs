@@ -4,7 +4,7 @@ using Palink.Tools.Freebus.Interface;
 using Palink.Tools.Freebus.Message;
 using Palink.Tools.Logging;
 
-namespace Palink.Tools.Robots.UPS;
+namespace Palink.Tools.Robots.Old.UPS;
 
 /// <summary>
 /// 山特UPS
